@@ -91,6 +91,6 @@ export default {
   manifest: {
     basePath: '/',
   },
-
+  urlLoaderExcludes: [/.svg$/],
   chainWebpack: webpackPlugin,
 };
