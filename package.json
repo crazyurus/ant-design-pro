@@ -23,11 +23,12 @@
   "dependencies": {
     "@antv/data-set": "^0.10.0",
     "@babel/runtime": "^7.1.5",
-    "@svgr/webpack": "^4.0.3",
+    "@svgr/webpack": "^2.4.1",
     "antd": "^3.10.7",
     "bizcharts": "^3.2.5-beta.4",
     "bizcharts-plugin-slider": "^2.0.3",
     "classnames": "^2.2.6",
+    "core-decorators": "^0.20.0",
     "dva": "^2.4.1",
     "enquire-js": "^0.2.1",
     "hash.js": "^1.1.5",
