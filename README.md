@@ -4,13 +4,8 @@
 
 开箱即用的中台前端/设计解决方案。
 
-[![CircleCI Status](https://circleci.com/gh/ant-design/ant-design-pro.svg?style=svg)](https://circleci.com/gh/ant-design/ant-design-pro/)
-[![Build status](https://ci.appveyor.com/api/projects/status/67fxu2by3ibvqtat/branch/master?svg=true)](https://ci.appveyor.com/project/afc163/ant-design-pro/branch/master)
-[![Dependencies](https://img.shields.io/david/ant-design/ant-design-pro.svg)](https://david-dm.org/ant-design/ant-design-pro)
-[![DevDependencies](https://img.shields.io/david/dev/ant-design/ant-design-pro.svg)](https://david-dm.org/ant-design/ant-design-pro?type=dev)
-[![Gitter](https://badges.gitter.im/ant-design/ant-design-pro.svg)](https://gitter.im/ant-design/ant-design-pro?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+保持与主仓库同步更新。
 
-![](https://user-images.githubusercontent.com/8186664/44953195-581e3d80-aec4-11e8-8dcb-54b9db38ec11.png)
 
 </div>
 
@@ -19,7 +14,21 @@
 - 使用文档：http://pro.ant.design/docs/getting-started-cn
 - 更新日志: http://pro.ant.design/docs/changelog-cn
 - 常见问题：http://pro.ant.design/docs/faq-cn
-- 国内镜像：http://ant-design-pro.gitee.io
+
+## 修改
+
+- 移除CircleCI
+- 移除Firebase
+- 移除Netlify
+- 移除外文README
+- 移除Appveyor
+- 移除umi-plugin-ga
+- 移除docker
+- 取消动态加载
+- 移除window.less
+- 开启文件名hash
+- 取消网络请求cache
+- 添加对SVG的支持
 
 ## 特性
 
@@ -78,25 +87,6 @@ $ npm install
 $ npm start         # 访问 http://localhost:8000
 ```
 
-### 使用 docker
-
-```bash
-// dev 
-$ npm run docker:dev
-
-// build 
-$ npm run docker:build
-
-
-// production dev 
-$ npm run docker-prod:dev
-
-// production build 
-$ npm run docker-prod:build
-```
-
-更多信息请参考 [使用文档](http://pro.ant.design/docs/getting-started)。
-
 ## 支持环境
 
 现代浏览器及 IE11。
@@ -104,11 +94,3 @@ $ npm run docker-prod:build
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Opera |
 | --------- | --------- | --------- | --------- | --------- |
 | IE11, Edge| last 2 versions| last 2 versions| last 2 versions| last 2 versions
-
-## 参与贡献
-
-我们非常欢迎你的贡献，你可以通过以下方式和我们一起共建 :smiley:：
-
-- 在你的公司或个人项目中使用 Ant Design Pro。
-- 通过 [Issue](http://github.com/ant-design/ant-design-pro/issues) 报告 bug 或进行咨询。
-- 提交 [Pull Request](http://github.com/ant-design/ant-design-pro/pulls) 改进 Pro 的代码。
