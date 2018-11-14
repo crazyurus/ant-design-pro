@@ -24,11 +24,12 @@
 - 移除Appveyor
 - 移除umi-plugin-ga
 - 移除docker
+- 移除CSS SourceMap
 - 取消动态加载
 - 移除window.less
 - 开启文件名hash
 - 取消网络请求cache
-- 添加对SVG的支持
+- 添加对SVG组件的支持
 - 添加core-decorators
 
 ## 特性
