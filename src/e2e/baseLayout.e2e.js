@@ -32,11 +32,19 @@ describe('Homepage', () => {
 
   beforeAll(async () => {
     jest.setTimeout(1000000);
-    browser = await puppeteer.launch({ args: ['--no-sandbox'] });
+    browser = await puppeteer.launch({
+      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      ignoreHTTPSErrors: true,
+      dumpio: false,
+    });
     page = await browser.newPage();
+    await page.goto(`${BASE_URL}`);
+    await page.waitForSelector('footer', {
+      timeout: 2000,
+    });
   });
 
-  formatter(RouterConfig[1].routes.slice(0, 1)).forEach(route => {
+  formatter(RouterConfig[1].routes).forEach(route => {
     fit(`test pages ${route}`, testPage(route));
   });
 
