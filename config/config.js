@@ -20,9 +20,7 @@ const plugins = [
         default: 'zh-CN', // default zh-CN
         baseNavigator: true, // default true, when it is true, will use `navigator.language` overwrite default
       },
-      dynamicImport: {
-        loadingComponent: './components/PageLoading/index',
-      },
+      dynamicImport: false,
       ...(!process.env.TEST && os.platform() === 'darwin'
         ? {
             dll: {
