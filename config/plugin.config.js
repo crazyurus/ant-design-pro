@@ -22,7 +22,7 @@ export default config => {
       stylesDir,
       varFile: path.join(__dirname, '../node_modules/antd/lib/style/themes/default.less'),
       mainLessFile: outFile, //     themeVariables: ['@primary-color'],
-      indexFileName: 'index.html',
+      indexFileName: false,
     },
   ]);
 };
