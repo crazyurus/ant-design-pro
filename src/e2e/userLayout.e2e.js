@@ -35,8 +35,7 @@ describe('Homepage', () => {
     browser = await puppeteer.launch({ args: ['--no-sandbox'] });
     page = await browser.newPage();
   });
-
-  formatter(RouterConfig[0]).forEach(route => {
+  formatter(RouterConfig[0].routes).forEach(route => {
     fit(`test pages ${route}`, testPage(route));
   });
 

@@ -36,7 +36,7 @@ describe('Homepage', () => {
     page = await browser.newPage();
   });
 
-  formatter(RouterConfig[1]).forEach(route => {
+  formatter(RouterConfig[1].routes).forEach(route => {
     fit(`test pages ${route}`, testPage(route));
   });
 
