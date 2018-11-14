@@ -65,6 +65,7 @@ export default {
   lessLoaderOptions: {
     javascriptEnabled: true,
   },
+  disableCSSSourceMap: true,
   disableRedirectHoist: true,
   cssLoaderOptions: {
     modules: true,
