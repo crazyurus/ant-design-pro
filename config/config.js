@@ -36,16 +36,6 @@ const plugins = [
   ],
 ];
 
-// judge add ga
-if (process.env.APP_TYPE === 'site') {
-  plugins.push([
-    'umi-plugin-ga',
-    {
-      code: 'UA-72788897-6',
-    },
-  ]);
-}
-
 export default {
   // add for transfer to umi
   plugins,
