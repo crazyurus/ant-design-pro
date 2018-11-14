@@ -23,7 +23,7 @@
   "dependencies": {
     "@antv/data-set": "^0.10.0",
     "@babel/runtime": "^7.1.5",
-    "@svgr/webpack": "^2.4.1",
+    "@svgr/webpack": "^4.0.3",
     "antd": "^3.10.7",
     "bizcharts": "^3.2.5-beta.4",
     "bizcharts-plugin-slider": "^2.0.3",
@@ -73,6 +73,7 @@
     "lint-staged": "^8.0.4",
     "merge-umi-mock-data": "^0.0.3",
     "mockjs": "^1.0.1-beta3",
+    "module": "^1.2.5",
     "prettier": "1.15.2",
     "pro-download": "^1.0.1",
     "stylelint": "^9.4.0",

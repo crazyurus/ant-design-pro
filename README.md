@@ -29,6 +29,7 @@
 - 开启文件名hash
 - 取消网络请求cache
 - 添加对SVG的支持
+- 添加core-decorators
 
 ## 特性
 

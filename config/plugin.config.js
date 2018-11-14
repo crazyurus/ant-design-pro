@@ -28,7 +28,7 @@ export default config => {
 
   config.module
     .rule('svg')
-    .test(/.svg(\?v=\d+.\d+.\d+)?$/)
+    .test(/.svgr(\?v=\d+.\d+.\d+)?$/)
     .use([
       {
         loader: 'babel-loader',
